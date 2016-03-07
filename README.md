@@ -15,6 +15,7 @@ It is a checkbox asking user to store data in cache. So it stores if it checked.
 
 ## Fields
 This are the fields this plugin is working with aout of the box
+
 	* text
     * textarea
     * select
