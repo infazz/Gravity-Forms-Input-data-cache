@@ -2,6 +2,10 @@
 Gravity forms plugin to save user input data to cookie's and populates form input data from cache on next user visit. 
 So missed feature in original plugin.
 
+Feel free to use it!
+And hope you find it usefull as we did :)
+
+
 ## Includes
 	
 	* [JS-Cookie](https://github.com/js-cookie/js-cookie)
