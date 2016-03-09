@@ -31,11 +31,11 @@
 
 
 
-			$('#gfstore-data').parents('.gform_wrapper').each(function(){
+			$('.gform_store_input_data').parents('.gform_wrapper').each(function(){
 				var el = $(this);
 
 				///*
-				var dataSaveCheckbox = $(this).find('#gfstore-data');
+				var dataSaveCheckbox = $(this).find('.gform_store_input_data');
 
 				dataSaveCheckbox.on('change', function(e){
 					if($(this).is(':checked')){

@@ -148,7 +148,7 @@ if(function_exists('gf_do_action')){
 				$input_name = $form_id .'_' . $field["id"];
 				$tabindex = GFCommon::get_tabindex();
 				$addToCache_title = isset( $field['addToCache_title'] ) ? $field['addToCache_title'] : '';
-				return sprintf("<div class='ginput_container'><label for='%s'><input type='checkbox' name='input_%s' id='%s' class='checkbox gform_store_input_data' $tabindex value='%s'> <span>%s</span></label></div>", 'gfstore-data', $field["id"], 'gfstore-data' , esc_html($value), $addToCache_title);
+				return sprintf("<div class='ginput_container'><label for='%s'><input type='checkbox' name='input_%s' id='%s' class='checkbox gform_store_input_data' $tabindex value='%s'> <span>%s</span></label></div>", 'gfstore-data-'.$form_id, $field["id"], 'gfstore-data-'.$form_id , esc_html($value), $addToCache_title);
 			}
 
 			return $input;
