@@ -175,7 +175,7 @@ if(function_exists('gf_do_action')){
 
 
 		function custom_class( $classes, $field, $form ) {
-			if ( !is_admin() ) print_r( $field->type . ' ' );
+			//if ( !is_admin() ) print_r( $field->type . ' ' );
 		   	if($field->addToCache == 1){
 		        $classes .= ' cache-field_' . $form['id'] . '_' . $field->id;
 		    }
