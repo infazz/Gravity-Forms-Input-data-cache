@@ -10,7 +10,7 @@
  * Plugin Name: Gravity Forms Input data cache
  * Plugin URI: http://blueglass.ee/en/plugins/gravity-forms-input-data-cache/
  * Description: Saves input data to cookie.
- * Version: 0.1
+ * Version: 1.0
  * Author: BlueGlass
  * Author URI: https://blueglass.ee
  * License: GPL-2.0+
@@ -18,7 +18,7 @@
  */
 
 
-const GF_IDC_VERSION = '0.1';
+const GF_IDC_VERSION = '1.0';
 
 if(function_exists('gf_do_action')){
 
